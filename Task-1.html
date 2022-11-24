@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        check()
+        function check() {
+            let num1 = 43
+            if (num1 % 7 == 0) {
+                console.log(num1 + " " + "ededi 7-e bolunur"); //eger eded 7-e bolunurse, consola cixaririq
+            }
+            else {
+                for (let index = 1; index < 7; index++) {
+                    let num2 = num1 + index
+                    if (num2 % 7 == 0) {
+                        console.log(num2); //eks halda edede en yaxin, 7-e bolunen ededi cixaririq
+                    }
+                }
+            }
+            return
+        }
+    </script>
+</body>
+
+</html>
